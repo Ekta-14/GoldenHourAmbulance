@@ -12,4 +12,7 @@
     <string name="register">REGISTER</string>
     <string name="already_hav">Already have an account ? Sign In</string>
     <string name="welcome_back">WELCOME BACK</string>
+    <string name="dont_hav">Don\'t have an account? Sign Up</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="forgot_password">Forgot Password</string>
 </resources>
