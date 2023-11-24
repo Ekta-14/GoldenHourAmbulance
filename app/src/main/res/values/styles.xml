@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="already_hav">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="dont_hav">Don't have an account? Sign Up</style>
+</resources>

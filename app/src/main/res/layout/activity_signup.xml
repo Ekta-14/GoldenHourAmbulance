@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_golden"
+    tools:context=".signup">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="175dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_onboard"
+            android:textColor="#343a40"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/find_help_in_no_time"
+            android:textColor="#495057"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="14dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:hint="@string/enter_your_full_name"
+            android:textSize="15sp"
+            android:textColorHint="#777272"
+            android:textColor="@color/registeration_details"
+            android:layout_marginTop="49dp"
+            android:paddingStart="25dp"
+            android:background="@drawable/rounded_edittext"
+            android:lineSpacingExtra="-2sp"
+            android:gravity="center_vertical"
+            tools:ignore="RtlSymmetry" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:hint="@string/enter_your_email"
+            android:textSize="15sp"
+            android:textColorHint="#777272"
+            android:textColor="@color/registeration_details"
+            android:layout_marginTop="21dp"
+            android:paddingStart="25dp"
+            android:background="@drawable/rounded_edittext"
+            android:lineSpacingExtra="-2sp"
+            android:gravity="center_vertical"
+            tools:ignore="RtlSymmetry" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:hint="@string/enter_your_password"
+            android:textSize="15sp"
+            android:textColorHint="#777272"
+            android:textColor="@color/registeration_details"
+            android:layout_marginTop="21dp"
+            android:paddingStart="25dp"
+            android:background="@drawable/rounded_edittext"
+            android:lineSpacingExtra="-2sp"
+            android:gravity="center_vertical"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:hint="@string/confirm_password"
+            android:textSize="15sp"
+            android:textColorHint="#777272"
+            android:textColor="@color/registeration_details"
+            android:layout_marginTop="21dp"
+            android:paddingStart="25dp"
+            android:background="@drawable/rounded_edittext"
+            android:lineSpacingExtra="-2sp"
+            android:gravity="center_vertical"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:background="@drawable/bg_register_btn"
+            app:backgroundTint="@null"
+            android:elevation="2dp"
+            android:translationZ="4dp"
+            android:translationX="4dp"
+            android:translationY="4dp"
+            android:stateListAnimator="@null"
+            />
+
+        <TextView
+            android:id="@+id/already_hav"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/already_hav"
+            android:textAppearance="@style/already_hav"
+            android:lineSpacingExtra="-5sp"
+            android:gravity="center_horizontal|top"
+            />
+
+    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

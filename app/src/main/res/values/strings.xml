@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Golden Hour Ambulance</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="welcome_onboard">WELCOME ONBOARD!</string>
+    <string name="enter_your_full_name">Enter Your Full Name</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="find_help_in_no_time">Find help in no time</string>
+    <string name="register">REGISTER</string>
+    <string name="already_hav">Already have an account ? Sign In</string>
+    <string name="welcome_back">WELCOME BACK</string>
+</resources>
