@@ -61,3 +61,9 @@ To get started with the Golden Hour Ambulance app, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/GoldenHourAmbulance.git
+
+2. Open the project in Android Studio 🚀.
+
+3. Build and run the app on an Android emulator or a physical device 📲.
+
+4. Explore the app's features and provide feedback or contribute to the project 💬.
