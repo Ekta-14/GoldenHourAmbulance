@@ -2,7 +2,24 @@
 
 ## Overview 🌐
 
-Welcome to the Golden Hour Ambulance app repository! It's a mobile application designed to increase the probability of saving lives by providing users with a quick and efficient way to reach the hospital in emergency situations. The app is built using **Kotlin** as the programming language and **Android Studio** as the development environment. It leverages the **OpenStreetMap (OSM) library** for mapping functionality, **XML** for layout design, and **Firebase Authentication** for user authentication.
+- Welcome to the Golden Hour Ambulance app repository!
+- Golden Hour Ambulance is a mobile application designed to increase the probability of saving lives by providing users with a quick and efficient way to reach the hospital in emergency situations for which .
+- Our app seamlessly integrates various modes of public transport, including autos, e-rickshaws, and bikes, to provide timely and efficient transportation for patients facing medical emergencies. By leveraging existing public transport infrastructure, Golden Hour Ambulance ensures that individuals who are unable to access ambulances can still reach medical facilities promptly.
+- The app is built using **Kotlin** as the programming language and **Android Studio** as the development environment. It leverages the **OpenStreetMap (OSM) library** for mapping functionality, **XML** for layout design, and **Firebase Authentication** for user authentication.
+
+## Key Features:
+
+- **Real-time Coordination:** Connects patients with available public transport options in real-time for swift and efficient transportation.
+
+- **Diverse Transport Modes:** Utilizes autos, e-rickshaws, and bikes to provide a range of transportation options tailored to the urgency and severity of the medical situation.
+
+- **Emergency Priority:** Prioritizes medical emergencies to ensure that patients receive timely transportation, enhancing accessibility to healthcare services.
+
+- **User-Friendly Interface:** A simple and intuitive interface for easy navigation, ensuring quick access to emergency transport options.
+
+## Objective:
+
+Golden Hour Ambulance aims to bridge the gap in medical transportation accessibility, particularly for individuals facing challenges in reaching medical facilities. By tapping into existing public transport infrastructure, the app creates a reliable and efficient system, contributing to improved healthcare outcomes. Join us in transforming emergency medical transportation and making a positive impact on lives with Golden Hour Ambulance. 🌟
 
 ## Features 🚀
 
