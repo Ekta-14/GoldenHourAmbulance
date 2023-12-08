@@ -60,7 +60,7 @@ To get started with the Golden Hour Ambulance app, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone [https://github.com/Ekta-14/GoldenHourAmbulance.git](https://github.com/Ekta-14/GoldenHourAmbulance)
+   git clone https://github.com/Ekta-14/GoldenHourAmbulance.git
 
 2. Open the project in Android Studio 🚀.
 
