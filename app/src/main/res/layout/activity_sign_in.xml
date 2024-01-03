@@ -37,6 +37,7 @@
 
 
         <EditText
+            android:id="@+id/et_mail"
             android:layout_width="match_parent"
             android:layout_height="51dp"
             android:hint="@string/enter_your_email"
@@ -48,8 +49,10 @@
             android:background="@drawable/rounded_edittext"
             android:lineSpacingExtra="-2sp"
             android:gravity="center_vertical"
-            tools:ignore="RtlSymmetry" />
+            tools:ignore="RtlSymmetry"
+            />
         <EditText
+            android:id="@+id/et_pass"
             android:layout_width="match_parent"
             android:layout_height="51dp"
             android:hint="@string/enter_your_password"
@@ -61,7 +64,9 @@
             android:background="@drawable/rounded_edittext"
             android:lineSpacingExtra="-2sp"
             android:gravity="center_vertical"
-            tools:ignore="RtlSymmetry" />
+            tools:ignore="RtlSymmetry"
+            android:inputType="textPassword"
+            />
         
         <TextView
             android:layout_width="match_parent"
@@ -74,7 +79,7 @@
             />
 
         <Button
-            android:id="@+id/btn_register"
+            android:id="@+id/btn_signin"
             android:layout_width="match_parent"
             android:layout_height="62dp"
             android:layout_marginTop="30dp"
@@ -88,6 +93,7 @@
             android:translationX="4dp"
             android:translationY="4dp"
             android:stateListAnimator="@null"
+            android:onClick="passCheck"
             />
         <TextView
             android:id="@+id/dont_hav"
