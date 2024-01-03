@@ -35,7 +35,6 @@
             android:layout_marginTop="35dp"
             android:src="@drawable/logomain_removebg"/>
 
-
         <EditText
             android:id="@+id/et_mail"
             android:layout_width="match_parent"
